@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ElectricalShield">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20sp">
+
+            <TextView
+                android:id="@+id/electricaltext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="@string/electro_text"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text_content73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text1"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text2"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text3"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text4"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text5"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content78"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text6"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content79"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text7"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content80"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text8"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text9"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content82"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text10"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content83"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text11"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content84"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text12"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content85"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text13"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content86"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text14"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content87"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text15"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content88"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text16"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content89"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text17"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content90"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text18"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text19"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text20"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text21"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text22"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text23"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text24"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text25"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text26"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text27"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text28"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text29"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text30"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text31"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text32"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text33"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text34"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text35"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/electro_text36"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/calculate_button1"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/button_text"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:onClick="saveText"
+        android:text="@string/save_value"
+        android:textColor="@color/white"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/calculate_button3"
+        android:layout_width="55sp"
+        android:layout_height="55sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:height="50sp"
+        android:backgroundTint="@color/black"
+        android:padding="5sp"
+        android:onClick="goToMenu"
+        android:text="@string/category_button"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SverlenieStenPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20sp">
+
+            <TextView
+                android:id="@+id/podrozetnikitext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="@string/sverlenie_sten_text"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text_content53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/sverlenie_sten_text1"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/sverlenie_sten_text2"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/sverlenie_sten_text3"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/sverlenie_sten_text4"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/sverlenie_sten_text5"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/sverlenie_sten_text6"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/sverlenie_sten_text7"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/sverlenie_sten_text8"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/sverlenie_sten_text9"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/sverlenie_sten_text10"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/sverlenie_sten_text11"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/calculate_button1"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/button_text"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@color/black"
+        android:onClick="saveText"
+        android:text="@string/save_value"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/calculate_button3"
+        android:layout_width="55sp"
+        android:layout_height="55sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:height="50sp"
+        android:backgroundTint="@color/black"
+        android:onClick="goToMenu"
+        android:padding="5sp"
+        android:text="@string/category_button"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

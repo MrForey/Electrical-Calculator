@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-38dp">
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20sp">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24sp"
+                    android:baselineAligned="false"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="@string/rozetki_ustanovka_text"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text_content1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30sp"
+                    android:baselineAligned="false"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/rozetki_ustanovka_text_1"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/text_field1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:baselineAligned="false"
+                    android:ems="10"
+                    android:hint="@string/placeholder_hint"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:text=""
+                    android:textColor="@color/text_color"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/text_content2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30sp"
+                    android:baselineAligned="false"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/rozetki_ustanovka_text_2"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/text_field2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:baselineAligned="false"
+                    android:ems="10"
+                    android:hint="@string/placeholder_hint"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:text=""
+                    android:textColor="@color/text_color"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/text_content3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30sp"
+                    android:baselineAligned="false"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/rozetki_ustanovka_text_3"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/text_field3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:baselineAligned="false"
+                    android:ems="10"
+                    android:hint="@string/placeholder_hint"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:text=""
+                    android:textColor="@color/text_color"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/text_content4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30sp"
+                    android:baselineAligned="false"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/rozetki_ustanovka_text_4"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/text_field4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:baselineAligned="false"
+                    android:ems="10"
+                    android:hint="@string/placeholder_hint"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:text=""
+                    android:textColor="@color/text_color"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/text_content5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30sp"
+                    android:baselineAligned="false"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/rozetki_ustanovka_text_5"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/text_field5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:baselineAligned="false"
+                    android:ems="10"
+                    android:hint="@string/placeholder_hint"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:text=""
+                    android:textColor="@color/text_color"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/text_content6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30sp"
+                    android:baselineAligned="false"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/rozetki_ustanovka_text_6"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/text_field6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:baselineAligned="false"
+                    android:ems="10"
+                    android:hint="@string/placeholder_hint"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:text=""
+                    android:textColor="@color/text_color"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/text_content7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30sp"
+                    android:baselineAligned="false"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/rozetki_ustanovka_text_7"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/text_field7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:baselineAligned="false"
+                    android:ems="10"
+                    android:hint="@string/placeholder_hint"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:text=""
+                    android:textColor="@color/text_color"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/text_content8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30sp"
+                    android:baselineAligned="false"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/rozetki_ustanovka_text_8"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/text_field8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:baselineAligned="false"
+                    android:ems="10"
+                    android:hint="@string/placeholder_hint"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:text=""
+                    android:textColor="@color/text_color"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/text_content9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30sp"
+                    android:baselineAligned="false"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/rozetki_ustanovka_text_9"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/text_field9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:baselineAligned="false"
+                    android:ems="10"
+                    android:hint="@string/placeholder_hint"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:text=""
+                    android:textColor="@color/text_color"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/text_content10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30sp"
+                    android:baselineAligned="false"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/rozetki_ustanovka_text_10"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/text_field10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:baselineAligned="false"
+                    android:ems="10"
+                    android:hint="@string/placeholder_hint"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:text=""
+                    android:textColor="@color/text_color"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/text_content11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30sp"
+                    android:baselineAligned="false"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/rozetki_ustanovka_text_11"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/text_field11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:baselineAligned="false"
+                    android:ems="10"
+                    android:hint="@string/placeholder_hint"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:text=""
+                    android:textColor="@color/text_color"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/text_content12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30sp"
+                    android:baselineAligned="false"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/rozetki_ustanovka_text_12"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/text_field12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:baselineAligned="false"
+                    android:ems="10"
+                    android:hint="@string/placeholder_hint"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:text=""
+                    android:textColor="@color/text_color"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/text_content13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30sp"
+                    android:baselineAligned="false"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/rozetki_ustanovka_text_13"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/text_field13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:baselineAligned="false"
+                    android:ems="10"
+                    android:hint="@string/placeholder_hint"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:text=""
+                    android:textColor="@color/text_color"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/text_content14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30sp"
+                    android:baselineAligned="false"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/rozetki_ustanovka_text_14"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/text_field14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="40dp"
+                    android:baselineAligned="false"
+                    android:ems="10"
+                    android:hint="@string/placeholder_hint"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:text=""
+                    android:textColor="@color/text_color"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/calculate_button1"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="@color/black"
+            android:onClick="resultAlert"
+            android:text="@string/button_text"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="@color/black"
+            android:onClick="saveText"
+            android:text="@string/save_value"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/calculate_button3"
+            android:layout_width="55sp"
+            android:layout_height="55sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:height="50sp"
+            android:backgroundTint="@color/black"
+            android:padding="5sp"
+            android:onClick="goToMenu"
+            android:text="@string/category_button"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

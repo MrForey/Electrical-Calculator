@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MontazhCablePage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20sp">
+
+            <TextView
+                android:id="@+id/montazh_cabletext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="@string/montazh_cable_text"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text_content155"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/montazh_cable_text1"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field155"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content156"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/montazh_cable_text2"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field156"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content157"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/montazh_cable_text3"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field157"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content158"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/montazh_cable_text4"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field158"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content159"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/montazh_cable_text5"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field159"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_content160"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/montazh_cable_text6"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/text_field160"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/placeholder_hint"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/calculate_button1"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/button_text"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:onClick="saveText"
+        android:text="@string/save_value"
+        android:textColor="@color/white"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/calculate_button3"
+        android:layout_width="55sp"
+        android:layout_height="55sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:height="50sp"
+        android:backgroundTint="@color/black"
+        android:padding="5sp"
+        android:onClick="goToMenu"
+        android:text="@string/category_button"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
